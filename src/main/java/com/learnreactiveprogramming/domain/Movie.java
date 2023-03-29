@@ -10,12 +10,12 @@ import java.util.List;
 @NoArgsConstructor
 @AllArgsConstructor
 public class Movie {
-    private MovieInfo movieInfo;
+    private MovieInfo movie;
     private List<Review> reviewList;
     private Revenue revenue;
 
-    public Movie(MovieInfo movieInfo, List<Review> reviewList) {
-        this.movieInfo = movieInfo;
+    public Movie(MovieInfo movie, List<Review> reviewList) {
+        this.movie = movie;
         this.reviewList = reviewList;
     }
 
